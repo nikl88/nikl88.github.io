@@ -1,0 +1,183 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+
+    background-image: url("img/fon/Opcaity-min.jpg");
+    background-repeat: no-repeat;
+    background-position:  50% ;
+    background-size: cover;
+}
+
+.top {
+    position: absolute;
+    width: 100%;
+    padding: 30px 35px 0 55px;
+}
+.logo {
+    float: left;
+
+}
+.social {
+    float: right;
+}
+.social a img{
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+}
+.social a+a {
+    margin-left: 24px;
+}
+.menu {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: rgba( 255, 255, 255, .09);
+    text-align: center;
+    padding: 33px 0;
+
+}
+.menu a {
+    font-size: 12px;
+    color: white;
+    text-transform: uppercase;
+    padding: 6px 54px;
+}
+.menu a+a {
+    border-left: 1px solid rgba(255,255,255,.3) ;
+}
+
+.header {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: white;
+   top: calc(50vh - 103px);
+
+}
+
+.header p{
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 33px;
+}
+.header h1{
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    margin-bottom: 24px;
+
+}
+.header h2{
+    font-size: 40px;
+}
+.header h1 span{
+    border: 3px solid white;
+    padding:  7px 69px;
+    display: inline-block;
+
+}
+.grey {
+    background: #f8f8f8;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+.elk{
+    position: relative;
+}
+.history{
+    padding-top: 63px;
+}
+h3{
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    margin-bottom: 53px;
+    position: relative;
+}
+h3::after{
+    content: "";
+    height: 10px;
+    width: 189px;
+    position: absolute;
+    background: url("img/content/h3_2.png");
+    bottom: -16px;
+    left: calc(50% - 95px);
+
+}
+.history_content{
+    padding: 52px 67px 73px;
+    margin-top: -120px;
+    background: #fff;
+    position: relative;
+    margin-left: 98px;
+    margin-right: 98px;
+
+}
+.history_content p {
+    font-size: 16px;
+    color: #000;
+    line-height: 1.5;
+    margin-bottom: 1em;
+}
+p.history_last {
+    margin-bottom: 40px;
+
+}
+.history_hr {
+    margin-bottom: 51px;
+}
+.history_link {
+    text-align: center;
+}
+.black {
+    font-size: 10px;
+    color: rgb(0,0,0);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border: 2px solid black;
+    padding: 16px 36px;
+}
+.orage {
+    font-size: 10px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border: 2px solid #e6ae48;
+    padding: 16px 36px;
+    background: #e6ae48;
+    margin-left: 15px;
+}
+
+.fact {
+    float: left;
+    width: 25%;
+text-align: center;
+}
+.fact_number{
+    font-size: 35px;
+    color: black;
+    }
+.fact_text{
+    font-size: 12px;
+    color: black;
+}
+.fact+.fact {
+    border-left: 1px solid rgba(0,0,0,09);
+}
+.facts {
+    padding: 90px 0  67px;
+}
+
+
+
