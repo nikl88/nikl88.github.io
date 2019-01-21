@@ -1,6 +1,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
 a{
     text-decoration: none;
 }
@@ -19,6 +20,7 @@ a{
     width: 100%;
     padding: 30px 35px 0 55px;
 }
+
 .logo {
     float: left;
 }
@@ -26,13 +28,16 @@ a{
 .social {
     float: right;
 }
+
 .social a img{
     border-bottom: 1px solid white;
     padding-bottom: 5px;
 }
+
 .social a+a {
     margin-left: 24px;
 }
+
 .menu {
     position: absolute;
     width: 100%;
@@ -40,14 +45,15 @@ a{
     background-color: rgba( 255, 255, 255, .09);
     text-align: center;
     padding: 33px 0;
-
 }
+
 .menu a {
     font-size: 12px;
     color: white;
     text-transform: uppercase;
     padding: 6px 54px;
 }
+
 .menu a+a {
     border-left: 1px solid rgba(255,255,255,.3) ;
 }
@@ -57,7 +63,7 @@ a{
     width: 100%;
     text-align: center;
     color: white;
-   top: calc(50vh - 103px);
+    top: calc(50vh - 103px);
 }
 
 .header p{
@@ -77,6 +83,7 @@ a{
 .header h2{
     font-size: 40px;
 }
+
 .header h1 span{
     border: 3px solid white;
     padding:  7px 69px;
@@ -86,6 +93,7 @@ a{
 .grey {
     background: #f8f8f8;
 }
+
 .container {
     width: 1140px;
     margin: 0 auto;
@@ -98,6 +106,7 @@ a{
 .history{
     padding-top: 63px;
 }
+
 h3{
     font-size: 14px;
     text-transform: uppercase;
@@ -124,8 +133,8 @@ h3::after{
     position: relative;
     margin-left: 98px;
     margin-right: 98px;
-
 }
+
 .history_content p {
     font-size: 16px;
     color: #000;
@@ -140,9 +149,11 @@ p.history_last {
 .history_hr {
     margin-bottom: 51px;
 }
+
 .history_link {
     text-align: center;
 }
+
 .black {
     font-size: 10px;
     color: rgb(0,0,0);
@@ -151,6 +162,7 @@ p.history_last {
     border: 2px solid black;
     padding: 16px 36px;
 }
+
 .orage {
     font-size: 10px;
     color: white;
@@ -185,6 +197,8 @@ p.history_last {
 .facts {
     padding: 90px 0  67px;
 }
+
+@medea 
 
 
 
