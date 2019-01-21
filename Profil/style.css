@@ -179,7 +179,7 @@ p.footer__social-icons a:hover {
     padding-left: 23px;
     padding-right: 23px;
     margin-bottom: 13px;
-transition: 0.2s ease-out;
+    transition: 0.2s ease-out;
 }
 
 .button:hover {
@@ -226,10 +226,11 @@ transition: 0.2s ease-out;
 
 /*Media*/
 @media (max-width: 1160px) {
-    .conteiner{
-        width: 100%;
+.conteiner{
+       width: 100%;
     }
-    .col-4{
+    
+.col-4{
         width: 100%;
         margin: 0;
         margin-bottom: 30px;
@@ -269,8 +270,8 @@ transition: 0.2s ease-out;
     height: auto;
 }
     
-    .header {
-        padding-left: 15px;
-        padding-right: 15px;
+.header {
+    padding-left: 15px;
+    padding-right: 15px;
     }
     }
