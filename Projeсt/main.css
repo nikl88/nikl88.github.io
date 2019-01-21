@@ -1,0 +1,247 @@
+body {
+    font-family: 'Anonymous Pro', monospace;
+    margin: 0;
+    padding: 0;
+}
+
+.conteiner {
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-holder{
+    width: 220px;
+    height: 30px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.navigation-holder {
+    width: 700px;
+    height: 30px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.navigation-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.navigation-list__list-item {
+    padding-left: 30px;
+}
+
+a{
+    font-family: 'Anonymous Pro', monospace;
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.conteiner-fluid {
+    width: 100%;
+}
+
+.header {
+    height: 530px;
+    background-image: url("img/bg/header-bg.jpg");
+    background-repeat: no-repeat ;
+    background-size: cover ;
+    background-position: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.battom {
+    height: 60px;
+    background-color: #7cc576;
+    border-radius: 60px ;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 16px;
+    color: #cccccc;
+    text-align: center;
+    font-weight: 700;
+    box-sizing: border-box;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 0 1px 1px rgba(34,129,26,1);
+}
+
+.heading-1 {
+    line-height: 65px;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing:  -2px;
+    margin-bottom:30px;
+}
+
+.header-content {
+    width: 620px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 95px;
+}
+
+.subtitle {
+    font-size: 20px;
+    color: #cccccc;
+}
+
+.subtitle.subtitle--header {
+    font-size: 20px;
+    color: #cccccc;
+}
+
+.subtitle__margin {
+    margin-bottom: 50px;
+    color: #cccccc;
+}
+
+.conteiner-padding {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.heading-2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    font-family: 'Anonymous Pro', monospace;
+    margin-bottom:5px;
+}
+
+.heading-2.white {
+    color: white;
+}
+
+.heading-2 em {
+    color: #7cc576;
+}
+
+.heading-3 {
+    text-transform: uppercase;
+}
+
+.heading-blok {
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.col-1-3 {
+    text-align: center;
+    width: 33%;
+}
+
+.service-box__icon {
+    margin-bottom: 45px;
+}
+
+.service-box__header {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    letter-spacing: -0.5px;
+}
+
+.service-box__text {
+    color: #777;
+    font-size: 12px;
+    letter-spacing: -0.5px;
+}
+
+.just-relax {
+    height: 615px;
+    display: flex;
+    flex-direction: row;
+}
+
+.bagraund-icon {
+   width: 30%;
+    background-color: #cccccc;
+    position: relative;
+}
+
+.bagraund-icon:after{
+    display: block;
+    width: 190px;
+    height: 100%;
+    position: absolute;
+    content: "";
+    background-image: url("img/bg/gear-2.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    right: 0;
+    top: 0;
+}
+
+.bagraund-photo{
+    width: 70%;
+    background-image: url("img/bg/Background1.jpg");
+}
+
+.jast-relax-content {
+    padding: 100px;
+    width: 700px;
+    color: white;
+}
+
+.list-check {
+    margin: 20px 0 45px 0;
+    padding: 0;
+}
+
+/*Media*/
+@media (max-width: 667px) {
+       .conteiner {
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100%;
+    }
+    .logo-holder {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px
+
+    }
+    .navigation-holder {
+        width: 100%;
+        text-align: center;
+    }
+    .col-1-3 {
+        width: 100% ;
+    }
+    .row {
+        flex-direction: column;
+    }
+    .bagraund-icon {
+        display: none;
+    }
+    .jast-relax-content{
+        width: 100% ;
+    }
+}
+
