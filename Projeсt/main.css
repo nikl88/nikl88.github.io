@@ -219,7 +219,7 @@ a{
        .conteiner {
         padding-left: 15px;
         padding-right: 15px;
-        width: 100%;
+        width: 95%;
     }
     .logo-holder {
         width: 100%;
@@ -228,7 +228,7 @@ a{
 
     }
     .navigation-holder {
-        width: 100%;
+        width: 80%;
         text-align: center;
     }
     .col-1-3 {
