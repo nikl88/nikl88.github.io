@@ -11,7 +11,7 @@ a{
     height: 100vh;
     background-image: url("img/fon/Opcaity-min.jpg");
     background-repeat: no-repeat;
-    background-position:  50% ;
+    background-position: 50% ;
     background-size: cover;
 }
 
@@ -53,7 +53,6 @@ a{
     text-transform: uppercase;
     padding: 6px 54px;
 }
-
 .menu a+a {
     border-left: 1px solid rgba(255,255,255,.3) ;
 }
@@ -124,8 +123,8 @@ h3::after{
     background: url("img/content/h3_2.png");
     bottom: -16px;
     left: calc(50% - 95px);
-}
 
+}
 .history_content{
     padding: 52px 67px 73px;
     margin-top: -120px;
@@ -137,7 +136,7 @@ h3::after{
 
 .history_content p {
     font-size: 16px;
-    color: #000;
+    color: #cccccc;
     line-height: 1.5;
     margin-bottom: 1em;
 }
@@ -198,7 +197,6 @@ p.history_last {
     padding: 90px 0  67px;
 }
 
-@medea 
 
 
 
